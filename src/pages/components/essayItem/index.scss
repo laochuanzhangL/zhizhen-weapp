@@ -1,0 +1,40 @@
+.essayItem-view{
+    margin-top: 4vw;
+    width: 86vw;
+    padding: 3vw 2vw;
+    height: 25vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1.5px solid #D7D7D7;
+    border-radius: 2vw;
+    margin-left: 5vw;
+    .left-view{
+        width: 31vw;
+        height: 20vw;
+        Image{
+            width: 30vw;
+            height: 20vw;
+        }
+    }
+
+    .right-view{
+        width: 54vw;
+        height: 25vw;
+
+        .top-text{
+            font-size: 4vw;
+            font-weight:600;
+            line-height: 7vw;
+            color: rgb(37, 37, 37);
+        }
+        .bottom-text{
+            display: flex;
+            align-items: center;
+            font-size: 3.5vw;
+            color:#4b4b4b;
+            font-weight:600;
+        }
+    }
+
+}

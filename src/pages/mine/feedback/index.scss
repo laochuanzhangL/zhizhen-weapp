@@ -1,0 +1,55 @@
+.feedback-view{
+    padding-top: 4vw;
+    .title{
+        font-size: 4.5vw;
+        margin-left: 5vw;
+        margin-bottom: 2vw;
+        font-weight: 600;
+        color: rgb(134, 134, 134);
+    }
+    .out-view{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90vw;
+        height: 15vw;
+        border:0px;
+        margin-left: 5vw;
+        .left-title{
+            width: 26vw;
+            font-size: 4.7vw;
+            color: rgb(117, 117, 117);
+        }
+        .right-content{
+            width: 60vw;
+            font-size: 4.7vw;
+            color:rgb(80, 77, 77)
+        }
+
+        .textarea{
+            width: 60vw;
+            height: 26vw;
+            font-size: 4.7vw;
+            color:rgb(80, 77, 77);
+        }
+    }
+    .hr{
+        width: 90vw;
+        margin-left: 5vw;
+        border:1px solid rgb(241, 241, 241)
+    }
+
+    .summit{
+        width: 90vw;
+        margin-left: 5vw;
+        height: 12vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 5vw;
+        color: rgb(245, 244, 244);
+        background-color: #006EFF;
+        border-radius: 1vw;
+        margin-top: 10vw;
+    }
+}

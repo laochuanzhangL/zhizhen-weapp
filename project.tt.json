@@ -1,0 +1,13 @@
+{
+  "miniprogramRoot": "./",
+  "projectname": "zhizhen",
+  "description": "智诊小程序",
+  "appid": "touristappid",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "postcss": false,
+    "minified": false
+  },
+  "compileType": "miniprogram"
+}

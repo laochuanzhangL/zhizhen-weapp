@@ -1,0 +1,104 @@
+@import "~taro-ui/dist/style/components/list.scss";
+@import "~taro-ui/dist/style/components/toast.scss";
+.userInfo-view{
+
+    .top-view{
+        margin-left: 11vw;
+        margin-top: 5vw;
+        width: 68vw;
+        height: 18vw;
+        background-color: #5F95F9;
+        display: flex;
+        padding: 5vw;
+        border-radius: 20px;
+        Image{
+            width: 18vw;
+            height: 18vw;
+            border-radius: 9vw;
+        }
+
+        .top-info-view{
+            height: 18vw;
+            padding: 3vw;
+            margin-left: 2vw;
+            .name{
+                color: #FBFCFF;
+                font-size: 5.5vw;
+            }
+            .phone{
+                color:#CED2D9;
+                font-size: 4.5vw;
+            }
+        }
+    }
+
+    .bottom-view{
+        margin-left: 7vw;
+        margin-top: 8vw;
+        width: 86vw;
+        // height: 45vw;
+        border-radius: 2vw;
+        border:1px solid #D7D7D7;
+
+        .hr{
+            width: 86vw;
+            border-top:1px solid #D7D7D7
+        }
+
+        .picker{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 80vw;
+            height: 15vw;
+            border:0px;
+            margin-left: 3vw;
+            .left-title{
+                width: 30vw;
+                font-size: 5vw;
+                font-weight: bold;
+            }
+            .right-content{
+                display: flex;
+                justify-content: center;
+                width: 50vw;
+                font-size: 5vw;
+                font-weight: bold;
+                color:rgb(80, 77, 77);
+                Text{
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+            }
+        }
+    }
+
+    .input{
+        width: 50vw;
+        text-align: center;
+        height: 6vw;
+        font-size: 5vw;
+        color:rgb(80, 77, 77);
+        font-weight: bold;
+
+    }
+    .toast{
+        height: 10vw;
+        line-height: 10vw;
+        font-size: 3.8vw;
+        color:red
+    }
+    .summit{
+        display: flex;
+        justify-content: center;
+        margin-left: 35vw;
+        width: 30vw;
+        background-color: #0870FE;
+        border-radius: 1vw;
+        padding: 2vw 0vw;
+        color: white;
+        font-size: 4.5vw;
+        // margin-top:5vw ;
+    }
+}

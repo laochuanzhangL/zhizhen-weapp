@@ -1,0 +1,103 @@
+.xinguan-view{
+    .top-title{
+        width: 94vw;
+        margin-left: 3vw;
+        margin-top: 3vw;
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding-bottom: 2vw;
+    }
+    .title-left{
+        width: 84vw;
+        .top-text{
+            font-size: 5vw;
+        }
+        .bottom-text{
+            margin-top: 1vw;
+            font-size: 3.5vw;
+            color:rgb(147, 148, 148)
+        }
+    }
+    .title-right{
+        width: 9vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        Image{
+            width: 9vw;
+            height: 9vw;
+        }
+    }
+    .center{
+        height: 10vw;
+        background-color: #F8FEFE;
+    }
+    .xinguan-bottom{
+        width: 100vw;
+        box-sizing: border-box;
+        padding: 3vw;
+        .address-title{
+            font-size: 4.5vw;
+            color:rgb(20, 20, 20)
+        }
+        .xinguan-picker{
+            Text{
+                margin-top: 2vw;
+                font-size: 4.7vw;
+                color: black;
+                font-weight: 500;
+            }
+        }
+        .hr{
+            border-top: 5px solid #d7d7d7;
+            margin-top: 3vw;
+        }
+        .address-level{
+            margin-top: 5vw;
+            border-radius: 2vw;
+            background-color: #F7F7F7;
+            box-sizing: border-box;
+            padding: 3vw;
+            .low{
+                text-align: center;
+                padding: 5vw 0vw;
+                font-size: 5.5vw;
+                color:rgb(19, 97, 19);
+                font-weight: 600;
+            }
+            .high-title{
+                font-size: 5vw;
+                box-sizing: border-box;
+                padding: 2vw;
+                padding-left: 1vw;
+                color:rgb(119, 21, 21);
+                font-weight: bold;}
+            }
+            .middle-title{
+                font-size: 5vw;
+                box-sizing: border-box;
+                padding: 2vw;
+                padding-left: 1vw;
+                color:chocolate;
+                font-weight: bold;
+            }
+            .address-item{
+                padding: 0.5vw;
+                padding-left: 1vw;
+                font-size: 4.5vw;
+
+            }
+            .zhu{
+                color: #8b8b8b;
+                font-size: 3.5vw;
+                padding: 1vw;
+                margin-top: 2vw;
+            }
+            .bottom-text{
+                color: #8b8b8b;
+                font-size: 3.5vw;
+                text-align: center;
+            }
+        }
+    }

@@ -1,0 +1,51 @@
+.essayDetial-view{
+    width: 100%;
+    padding: 4vw 3vw;
+     .title-view{
+         width: 94vw;
+         display: flex;
+         justify-content: space-between;
+         .title-view-left{
+             width: 82vw;
+             .title{
+                font-size: 4.5vw;
+                font-weight: bold;
+                color: rgb(82, 82, 82);
+             }
+             .author{
+                 font-size: 3.5vw;
+                 font-weight: bold;
+                 color:rgb(139, 138, 138);
+                 margin-top: 1vw;
+             }
+         }
+         .title-view-right{
+             width: 10vw;
+             Image{
+                 width: 8vw;
+                 height: 8vw;
+             }
+         }
+     }
+
+     .essay-img{
+         width: 94vw;
+        //  height: 40vw;
+         margin-top: 3vw;
+         border-radius: 2vw;
+     }
+
+     .essay-content{
+         width: 94vw;
+         margin-top: 3vw;
+         font-size: 4vw;
+         color: rgb(82, 82, 82);
+         text-indent:40px;
+
+         .content{
+             width: 94vw;
+             line-height: 7vw;
+        }
+         
+     }
+}

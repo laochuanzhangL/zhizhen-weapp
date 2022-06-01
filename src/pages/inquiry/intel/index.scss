@@ -1,0 +1,84 @@
+@import "~taro-ui/dist/style/components/input.scss";
+@import "~taro-ui/dist/style/components/button.scss";
+.intel-view{
+    View{
+        white-space: pre-wrap;
+    }
+    .text{
+        width: 100vw;
+        padding: 1.5vw;
+        // height: 100vh;
+        // padding-bottom: 18vw;
+        box-sizing: border-box;
+    }
+    .footerButton{
+        box-sizing: border-box;
+        border-top: 2px solid #d7d7d7;
+        width: 100vw;
+        position: fixed;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        display: flex;
+        align-items: center;
+        background-color: #F2F2F2;
+        height: 18vw;
+        .input{ 
+            border: 2px solid #d7d7d7;
+            margin: 0vw;
+            margin-left: 5vw;
+            padding-left: 2vw;
+            width: 70vw;
+            color: black;
+            height: 4.5vw;
+            font-size: 4vw;
+        }
+        .button{
+            width: 10vw;
+            font-size: 4.5vw;
+            margin-left: 0vw;
+            margin-left: 2vw;
+            background-color: #06C15E;
+            border: 0;
+        }
+    }
+
+    
+    .outView{
+        margin-top: 3vw;
+        display: flex;
+        Image{
+            width: 10vw;
+            height: 10vw;
+        }
+        .content{
+            max-width: 70vw;
+            box-sizing: border-box;
+            border: 2px solid #d7d7d7;
+            border-radius: 1vw;
+            padding: 1.5vw;
+            margin: 0vw 2vw;
+            flex-grow:0;
+            flex-shrink:0;
+            margin-bottom: 1vw;
+
+        }
+        .select{
+            max-width: 70vw;
+            box-sizing: border-box;
+            border: 2px solid #37B9F3;
+            border-radius: 1vw;
+            padding: 1.5vw;
+            margin: 0vw 2vw;
+            margin-bottom: 1vw;
+            flex-grow:0;
+            flex-shrink:0;
+            color:#37B9F3;
+             display:inline-block !important; 
+        }
+    }
+    .fragment{
+        flex-grow:0;
+        flex-shrink:0;
+        
+    }
+}

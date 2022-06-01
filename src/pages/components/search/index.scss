@@ -1,0 +1,26 @@
+.search_wrap{
+    width: 100vw;
+    display: flex;
+    height: 6vh;
+    justify-content: center;
+    .search{
+        width: 90vw;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        border: 1.5rpx solid #D7D7D7;
+        align-items: center;
+        border-radius: 10rpx;
+        .input{
+            width: 80%;
+            padding-left: 1rem;
+        }
+        .button{
+            height: 100%;
+            background-color:#D7D7D7 ;
+            line-height: 6vh;
+            text-align: center;
+            width: 20%;
+        }
+    }
+}

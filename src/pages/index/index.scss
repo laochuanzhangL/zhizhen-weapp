@@ -1,0 +1,120 @@
+.index-view{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 2vw;
+
+    .swiper{
+        width:94vw ;
+        border-radius: 2vw;
+        height: 47vw;
+
+        Image{
+            width: 94vw;
+            border:15px;
+            height: 47vw;
+            border-radius: 2vw;
+        }
+    }
+    
+
+    .center-view{
+        width: 94vw;
+        margin-top: 7vw;
+        
+        .center-view-top{
+            display: flex;
+            align-items: center;
+
+            View{
+                width: 6vw;
+                height: 2vw;
+                background-color:#338BFF ;
+                border-radius: 30px;
+
+            }
+            
+            Text{
+                // font-weight:bold;
+                font-size: 5vw;
+                margin-left: 2vw;
+                color:black;
+            }
+        }
+
+        .center-view-bottom{
+            margin-top: 3vw;
+            width: 94vw;
+            display: flex;
+            justify-content: space-between;
+            
+            .center-in{
+                border-radius: 2vw;
+                width: 39.5vw;
+                height: 20vw;
+                padding: 2vw 3vw;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: lightslategray;
+                .center-in-view{
+                   
+                    .top-text{
+                        display: flex;
+                        justify-content: center;
+                        font-size: 5.5vw;
+                        font-weight: bold;
+                        margin-bottom: 1vw;
+                    }
+                    .bottom-text{
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 1vw;
+                        font-size: 4vw;
+
+                    }
+                }
+                .img-view{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 12vw;
+                    height: 12vw;
+                    border-radius: 6vw;
+                    Image{
+                        width: 10vw;
+                        height: 10vw;
+                    }
+                }
+                
+            }
+        }
+        
+    }
+
+    .bottom-view-bottom{
+        margin-top: 3vw;
+            width: 94vw;
+            display: flex;
+            justify-content: space-between;
+        
+        .item{
+            width: 20vw;
+            height: 17vw;
+            padding:2vw 0vw;
+            border: 1.5px solid #D7D7D7;
+            border-radius: 1vw;
+            Image{
+                width: 10vw;
+                height: 10vw;
+            }
+            .view{
+                display: flex;
+                justify-content: center;
+                font-size: 4vw;
+            }
+        }
+    }
+
+
+}

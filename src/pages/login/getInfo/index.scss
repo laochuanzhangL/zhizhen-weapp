@@ -1,0 +1,55 @@
+@import "~taro-ui/dist/style/components/modal.scss";
+.getInfo-view{
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   padding-top: 5vw;
+   View{
+       margin-top: 2vw;
+       font-size: 4.5vw;
+
+       display: flex;
+       View{
+            width: 90vw;
+            border-bottom:2px solid #D7D7D7;
+            padding: 1.5vw 0vw;
+
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .input{
+            width: 67vw;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color:rgb(116, 113, 113);
+            font-size: 4.3vw;
+        }
+       }
+       
+       
+   }
+   .summit{
+       background-color: #0870FE;
+       border-radius: 1vw;
+       padding: 2vw 10vw;
+       color: white;
+       font-size: 4vw;
+    //    margin-top:5vw ;
+   }
+   .message{
+       color:rgb(116, 113, 113) ;
+       font-size: 3vw;
+       margin-top: 2vw;
+   }
+
+   .toast{
+       height: 10vw;
+       line-height: 10vw;
+       font-size: 3.8vw;
+       color:red
+   }
+
+}

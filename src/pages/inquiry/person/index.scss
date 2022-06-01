@@ -1,0 +1,13 @@
+.person-view{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    Image{
+        margin-top: 20vw;
+        width: 50vw;
+    }
+    View{
+        font-size: 5vw;
+        text-align: center;
+    }
+}

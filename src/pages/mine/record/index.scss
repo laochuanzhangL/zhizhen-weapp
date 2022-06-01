@@ -1,0 +1,118 @@
+
+.record-view{
+
+    .top-view{
+        margin-left: 11vw;
+        margin-top: 5vw;
+        width: 68vw;
+        height: 18vw;
+        background-color: #5F95F9;
+        display: flex;
+ 
+        padding: 5vw;
+        border-radius: 20px;
+        Image{
+            width: 18vw;
+            height: 18vw;
+            border-radius: 9vw;
+        }
+
+        .top-info-view{
+            height: 18vw;
+            padding: 3vw;
+            margin-left: 2vw;
+            .name{
+                color: #FBFCFF;
+                font-size: 5.5vw;
+            }
+            .phone{
+                color:#CED2D9;
+                font-size: 4.5vw;
+            }
+        }
+    }
+
+    .hr{
+        width: 90vw;
+        border-top:1px solid lightgrey;
+        margin-top: 3vw;
+        margin-left: 5vw;
+    }
+
+    .hr-bottom{
+        height: 12vw;
+        width: 90vw;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 5vw;
+        align-items: center;
+
+        .right-text{
+            font-size: 3.5vw;
+
+        }
+        .left-view{
+            display: flex;
+            .left-text{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 3.6vw;
+                width: 14vw;
+                height: 5vw;
+                margin-right: 2vw;
+                border-radius: 3vw;
+            }
+            .checked-view{
+                background-color: #338BFF;
+                color: white;
+            }
+            .noChecked-view{
+                border: 1px solid rgb(82, 81, 81);
+            }
+        }
+        
+    }
+
+    .record-item-view{
+        margin-left: 5vw;
+        margin-bottom: 5vw;
+        width: 84vw;
+        height: 20vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3vw;
+        border-radius: 2vw;
+        border: 1.5px solid #d7d7d7;
+        Image{
+            width: 12vw;
+            height: 12vw;
+            border-radius: 6vw;
+        }
+        .item-left{
+            display: flex;
+            align-items: center;
+            .record-info-view{
+                height: 16vw;
+                padding: 3vw;
+                margin-left: 2vw;
+                .type{
+                    color: black;
+                    font-weight: bold;
+                    font-size: 5.8vw;
+                    margin-bottom: 2.5vw;
+                }
+                .time{
+                    color:#4b4b4b;
+                    font-size: 3.5vw;
+                    margin-top: 2.5vw;
+                }
+            }
+        }
+        .icon{
+            width: 13vw;
+            height: 13vw;
+        }
+    }
+}

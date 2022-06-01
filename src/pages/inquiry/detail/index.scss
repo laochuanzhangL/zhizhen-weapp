@@ -1,0 +1,19 @@
+.detail-view{
+    box-sizing: border-box;
+    padding: 3vw;
+    .item{
+        display: flex;
+        margin-top: 4vw;
+        Text{
+            font-size: 5vw;
+            white-space: nowrap;
+            width:27vw
+        }
+
+        .content{
+            width: 67vw;
+            font-size: 5vw;
+            color:#37B9F3
+        }
+    }
+}
