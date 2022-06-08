@@ -46,7 +46,6 @@ export default function index() {
         message: value
       },
       success: function(res) {
-        console.log(res);
         if (res.statusCode == 200) {
           if (res.data.length == 0) {
             setData([
@@ -54,11 +53,7 @@ export default function index() {
               { name: "intel", kind: "text", content: "我无法理解你说的话!" }
             ]);
           } else if (res.data[0].custom) {
-            console.log( {
-              name: "intel",
-              kind: res.data[0].custom.kind,
-              custom: res.data[0].custom
-            })
+          
             setData([
               ...data1,
               {
@@ -440,7 +435,7 @@ export default function index() {
           onKeyboardHeightChange={e => isFourceHeight(e)} //键盘高度发生变化的时候触发此事件
           onChange={textChange}
           value={inputValue}
-        />
+        /> 
         <AtButton
           className="button"
           disabled={disabled}

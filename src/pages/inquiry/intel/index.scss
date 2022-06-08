@@ -1,6 +1,7 @@
 @import "~taro-ui/dist/style/components/input.scss";
 @import "~taro-ui/dist/style/components/button.scss";
 .intel-view{
+ 
     View{
         white-space: pre-wrap;
     }
@@ -29,16 +30,18 @@
             padding-left: 2vw;
             width: 70vw;
             color: black;
-            height: 4.5vw;
+            height: 4vw;
             font-size: 4vw;
+            line-height: 4vw;
         }
         .button{
-            width: 10vw;
+            width: 15vw;
             font-size: 4.5vw;
             margin-left: 0vw;
             margin-left: 2vw;
             background-color: #06C15E;
             border: 0;
+            font-size: 5vw;
         }
     }
 
@@ -46,11 +49,14 @@
     .outView{
         margin-top: 3vw;
         display: flex;
+        max-height: 50vh;
+        overflow: auto;
         Image{
             width: 10vw;
             height: 10vw;
         }
         .content{
+           
             max-width: 70vw;
             box-sizing: border-box;
             border: 2px solid #d7d7d7;
